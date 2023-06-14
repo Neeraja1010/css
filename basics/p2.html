@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .combination{
+            background-color: grey;
+            color: white;
+            padding: 20px;
+        }
+        .combination h3{
+            color: blanchedalmond;
+
+        }
+        .combination p{
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <ol>
+        <li>descendent selector(using space)</li>
+        <li>child selector(using>symbol)</li>
+        <li>adjacent (using+symbol)</li>
+        <li>General sibling</li>
+    <ol>
+        <hr>
+        <h1>descendent selector (using space) Example..!</h1>
+        <hr>
+        <section class="combination" id="akhil">
+            <h3>First h3 tag..!(child Element)</h3>
+            <p>First paragraph tag..!(child Element)</p>
+
+            <h3>second h3 tag..!(child Element)</h3>
+            <p>second paragraph tag..!(child Element)</p>
+
+            <h3>third h3 tag..!(child Element)</h3>
+            <p>third paragraph tag..!(child Element)</p>
+            <div>
+                <h3>fourth h3 tag..!(grandchild Element)</h3>
+                <p>Fourth paragraph tag..!(grandchild Element)</p>    
+            </div>
+            <h3>Fifth h3 tag..!(child Element)</h3>
+            <p>Fifth paragraph tag..!(child Element)</p>
+        </section>
+</body>
+</html>

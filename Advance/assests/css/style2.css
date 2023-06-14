@@ -1,0 +1,176 @@
+.title{
+    background-color: rgb(255, 187, 52);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.title>h1{
+    color: rgb(255, 136, 0);
+}
+.title>p{
+    color: #fff;
+    font-size: 20px;
+}
+/* COMMON CLASS */
+.common{
+    background-color: #ddd;
+    padding: 30px;
+    margin: 30px;
+    border: 3px solid#ccc;
+}
+.cssoutline{
+    outline: 3px solid #000;
+    border-radius: 10px;
+}
+/*P6.HTML*/
+.cssVisibilityDisplay>p{
+    background-color: teal;
+    padding: 20px;
+    border: 5px solid red;
+}
+.cssVisibilityDisplay>.cssVisibility{
+    visibility: hidden;
+}
+.cssVisibilityDisplay>.cssDisplay{
+    display: none;
+}
+/*p7.html*/
+.cssWordWrap>p{
+    background-color: #808080;
+    padding: 20px;
+    width:300px;word-wrap: break-word;
+}
+/* css Resize */
+.cssResize{
+    overflow: auto;
+    resize: both;
+}
+/* css offset-outline*/
+.cssOffsetOutline{
+    outline: 3px solid #000;
+    outline-offset: 10px;
+}
+/* CSS COLUMN COUNT*/
+.cssColumnCount{
+    text-align: center;
+    line-height: 2;
+}
+.cssColumnCount>div{
+    /* column-count:5,*/
+    columns: 50px;
+    column-rule: 2px solid red;
+    column-width: 200px;
+}
+/* p8.html */
+.cssOpacity>p{
+    background-color: teal;
+    color: #fff;
+    padding: 20px;
+    opacity: 0.2;
+}
+.cssOpacity>div{
+    background-color: rgba(128, 128, 128, 0.2);
+    color: ;
+    padding: ;
+}
+/*p9.html*/
+.cssAttribute>h1{
+    color: brown;
+}
+.cssAttribute>p{
+    color: #808080;
+}
+.cssAttribute>[title]{
+    background-color: yellow;
+}
+.cssAttribute>p[title]{
+    padding: 20px;
+}
+.cssAttribute>h1[title]{
+    font-style: italic;
+}
+.cssAttribute>p>abbr[id]{
+    background-color: red;
+    color: yellow;
+}
+.cssAttribute>form>[type]{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.cssAttribute>form>[type="text"]{
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.cssAttribute>form>[type="submit"]{
+    background-color: lightskyblue;
+    border: 2px solid red;
+}
+/*p10.html*/
+.csspsuedoClass>h1{
+    color: dimgray;
+}
+.csspsuedoClass>h1:hover{
+    color: green;
+}
+.csspsuedoClass>a:link{
+    color: #fff;
+}
+.csspsuedoClass>a:hover{
+    color: yellow;
+}
+.csspsuedoClass>a:active{
+    color: green;
+}
+.csspsuedoClass>a:visited{
+    color: red;
+}
+/*p11.html code*/
+.csspsuedoElement>section:first-child::first-line, .csspsuedoElements>section:nth-child(2)::first-letter{
+    background-color: red;
+    color: white;
+}
+.csspsuedoElement>section:nth-child(2)::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+}
+.csspsuedoElement>section:last-child>h1::before{
+    content: "BEFORE H1";
+    background-color: yellow;
+    color: red;
+}
+.csspsuedoElement>section:last-child>h1::after{
+    content: "AFTER H1";
+    background-color: red;
+    color: yellow;
+}
+/*p12.html*/
+.cssposition>h1:first-child, .cssposition>div>h1:first-child{
+    background-color: teal;
+}
+.cssposition>h1:nth-child(2), .cssposition>div>h1:nth-child(2){
+    background-color: tomato;
+}
+.cssposition>h1:nth-child(3), .cssposition>div>h1:nth-child(3){
+    background-color: violet;
+}
+.cssposition h1{
+    padding: 20px;
+    color: #fff;
+}
+.cssposition>.second{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.cssposition>div>.fifth{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.cssposition>div{
+    border: 2px solid #000;
+    padding: 20px;
+    position: relative;
+}

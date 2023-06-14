@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .combination{
+        background-color: grey;
+        color: white;
+        padding: 20px;
+    }
+    .combination+h5{
+        background-color: blue;
+        color: red;
+    }
+    .combination+h5+h5{
+        background-color: crimson;
+        color: darkblue;
+    }
+    .combination+h5+h5+h5{
+        background-color: blueviolet;
+        color: white;
+    }
+    .combination+h5+h5+h5+h5{
+        background-color: brown;
+        color: aquamarine;
+    }
+</style>
+</head>
+<body>
+<center>
+    <h1>there are 4 different .combination in css</h1>
+</center>
+<ol>
+    <li>descendent selector(using space)</li>
+    <li>child selector(using>symbol)</li>
+    <li>adjacent sibling selector(using+symbol)</li>
+    <li>General sibling selector</li>
+<ol>
+    <hr>
+    <h1> adjacent sibling selector(using space) Example..!</h1>
+    <hr>
+    <section class="combination">
+        <h3>First hb tag..!(child Element)</h3>
+        <p>First hb tag..!(child Element)</p>
+
+        <h3>second hb tag..!(child Element)</h3>
+        <p>second hb tag..!(child Element)</p>
+
+        <h3>third hb tag..!(child Element)</h3>
+        <p>third hb tag..!(child Element)</p>
+
+        <div>
+            <h3>First hb tag..!(child Element)</h3>
+            <p>First hb tag..!(child Element)</p>
+
+            <h3>second hb tag..!(child Element)</h3>
+            <p>second hb tag..!(child Element)</p>
+
+            <h3>third hb tag..!(child Element)</h3>
+            <p>third hb tag..!(child Element)</p>
+
+            <h3>fourth hb tag..!(child Element)</h3>
+            <p>Fourth hb tag..!(child Element)</p>
+
+            <h3>Fifth hb tag..!(child Element)</h3>
+            <p>Fifth hb tag..!(child Element)</p>
+
+        </div>
+    </section>
+    <h5>this is first h5</h5>
+    <h5>this is Second h5</h5>
+    <h5>this is third h5</h5>
+    <h5>this is fourth h5</h5>
+
+</body>
+</html>
